@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#Install IOS-Ingress direct download on your device
+#Install IOS-Ingress via direct download on your device
 #Hacked together by Garret Picchioni
 #Requires jailbroken device with wget, AppCake, and a way to execute this script (via terminal or SSH)
 #Should be executed as mobile user, but will compensate if ran by root
