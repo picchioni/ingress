@@ -17,6 +17,10 @@ if [[ -z $wgetCheck ]]; then
 	exit 1
 fi
 
+if [[ ! -d $downloadsFolder ]]; then
+	echo "$downloadsFolder does not exist, please confirm AppCake is installed"
+fi
+
 if [[ -f $ingressIPA ]]; then
 	echo "Removing old Ingress IPA file"
 	rm $ingressIPA
